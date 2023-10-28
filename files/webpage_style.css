@@ -1,0 +1,138 @@
+.roundBox{
+	border-radius: 15px;
+	border: 1px solid black;
+	padding: 10px;
+	padding-left: 5px;
+	background: lightgrey;
+	text-align: left;
+	width: 98.33%;
+	margin: auto;
+}
+.title{
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 10px;
+	background: lime;
+	background: -moz-linear-gradient(left, lime 0%, yellow 50%);
+	background: -webkit-linear-gradient(left, lime 0%, yellow 50%);
+	background: linear-gradient(to right, lime 0%, yellow 80%);
+}
+.body{
+	background: white;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: -25px;
+	padding-bottom: 10px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.info {
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+}
+.x {
+	display: inline;
+	vertical-align: top;
+	horizontal-align: right;
+	width: 4%;
+	height: 4%;
+	margin-left: 95%;
+	margin-top: -50px;
+}
+.holderHead {
+	margin-top: 20px;
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	border-radius: 15px;
+}
+.iframeHolder {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: black;
+}
+.frame {
+	display: inline;
+	border: 0px;
+	outline: none;
+}
+.dropButton{
+	background-color: orange;
+	background: linear-gradient(to right, orange , yellow);
+	width: 500px;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.dropButton:hover, .dropButton:focus {
+	background-color: lime;
+}
+.dropButton2{
+	background-color: orange;
+	background: linear-gradient(to right, orange , yellow);
+	width: 500px;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	cursor: pointer;
+}
+.noteDropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	min-width: 532px;
+	z-index: 1;
+	cursor: pointer;
+}
+.dropdown-content div{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content div:hover{
+	background-color: orange;
+	border-radius: 10px;
+}
+.show{
+	display: block;
+}
+.nav-bar{
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	margin-bottom: 10px;
+	margin-top: -20px;
+}
+.nav-button{
+	background-color: lime;
+	width: auto;
+	height: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	display: inline-block;
+}
+span {
+	padding-left: 5px;
+	line-height: 27px;
+}

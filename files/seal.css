@@ -1,0 +1,13 @@
+.sealdiv{
+	background-color: transparent;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+.sealimg{
+	width: 110%;
+	height: 80%;
+	margin-left: -30px;
+	margin-top: 50px;
+	cursor: pointer;
+}
