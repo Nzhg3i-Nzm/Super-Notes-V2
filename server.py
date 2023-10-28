@@ -117,4 +117,5 @@ my_server = socketserver.TCPServer(("", PORT), handler_object)
 
 print("Visit http://localhost:"+str(PORT))
 
+os.system("start chrome.exe http://localhost:"+str(PORT))
 my_server.serve_forever()
