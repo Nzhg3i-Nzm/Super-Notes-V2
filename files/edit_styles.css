@@ -89,6 +89,7 @@
 	height: 50px;
 	display: inline-block;
 	margin-right: 50px;
+	border-radius: 10px;
 	cursor: pointer;
 }
 .saveImage{
